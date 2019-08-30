@@ -14,7 +14,7 @@ $ npm install react-ui-expand --save
 import * as React from 'react';
 import { render } from 'react-dom';
 
-import Expand from '../src';
+import Expand from 'react-ui-expand';
 
 const Demo = () => {
   return (<Expand 
