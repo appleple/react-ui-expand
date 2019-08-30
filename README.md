@@ -42,4 +42,4 @@ Common props you may want to specify include:
 - `onClose` - subscribe to close events
 - `className` - apply a className to the control
 - `button` - jsx element to trigger events 
-
+- `children` - callback function to return jsx element which includes the button element
