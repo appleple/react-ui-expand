@@ -34,3 +34,12 @@ render(<Demo/>, document.getElementById('demo'));
 
 ## Props
 
+Common props you may want to specify include:
+
+- `beforeOpen` - subscribe to before open events
+- `onOpen` - subscribe to open events
+- `beforeClose` - subscribe to before close events
+- `onClose` - subscribe to close events
+- `className` - apply a className to the control
+- `button` - jsx element to trigger events 
+
