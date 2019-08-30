@@ -20,12 +20,12 @@ const Demo = () => {
   return (<Expand 
     className="hoge" 
     button={<button>Open!!</button>}
-  >{(button) => {
-    return(<div>
-      {button}
-      This Element will expand to fullscreen!!
-    </div>);
-  }}
+    >
+    {(button) => {
+      return(<div>{button}
+        This Element will expand to fullscreen!!
+      </div>);
+    }}
   </Expand>)
 };
 
