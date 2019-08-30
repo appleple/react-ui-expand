@@ -1,6 +1,6 @@
 {
   "name": "react-ui-expand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just a simple UI helper to expand elements",
   "main": "lib/index.js",
   "type": "lib/index.d.ts",
