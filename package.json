@@ -1,0 +1,51 @@
+{
+  "name": "react-ui-expand",
+  "version": "1.0.0",
+  "description": "Just a simple UI helper to expand elements",
+  "main": "lib/index.js",
+  "type": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "tsc",
+    "np": "np --no-cleanup",
+    "deploy": "npm-run-all -s build build:lib np"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appleple/react-ui-expand"
+  },
+  "keywords": [
+    "parallax"
+  ],
+  "homepage": "https://appleple.github.io/react-ui-expand",
+  "author": {
+    "name": "steelydylan",
+    "email": "hori@appleple.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-minifier": "^3.5.21",
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.7.0",
+    "np": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "^1.11.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.5"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.0",
+    "ui-expand": "0.0.7"
+  }
+}
