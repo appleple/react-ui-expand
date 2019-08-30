@@ -43,3 +43,8 @@ Common props you may want to specify include:
 - `className` - apply a className to the control
 - `button` - jsx element to trigger events 
 - `children` - callback function to return jsx element which includes the button element
+
+
+## License
+
+MIT Licensed. Copyright (c) appleple 2019.
