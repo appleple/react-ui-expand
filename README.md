@@ -1,4 +1,4 @@
-# ui-expand
+# react-ui-expand
 
 ![](./assets/example.gif)
 
