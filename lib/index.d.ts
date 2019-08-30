@@ -1,5 +1,5 @@
 import * as React from 'react';
-declare type Callback = (element: HTMLElement, button: HTMLButtonElement) => void;
+declare type Callback = (element?: HTMLElement, button?: HTMLButtonElement) => void;
 declare type Props = {
     children: (button: JSX.Element) => JSX.Element;
     button: JSX.Element;

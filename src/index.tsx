@@ -3,7 +3,7 @@ import Expand from 'ui-expand';
 
 const { useRef, useEffect } = React;
 
-type Callback = (element: HTMLElement, button: HTMLButtonElement) => void;
+type Callback = (element?: HTMLElement, button?: HTMLButtonElement) => void;
 
 type Props = {
   children: (button: JSX.Element) => JSX.Element;
